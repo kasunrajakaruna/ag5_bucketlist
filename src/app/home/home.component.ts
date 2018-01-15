@@ -36,7 +36,7 @@ export class HomeComponent implements OnInit {
 
   itemCount : number;
   btnText: string='Add an Item';
-  goalText: 'My first item';
+  goalText: string = 'My first item';
   goals =[];
 
   constructor(private _data:DataService) { }
